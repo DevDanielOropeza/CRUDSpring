@@ -1,0 +1,9 @@
+com\example\crud\dto\ResponseDTO.class
+com\example\crud\CrudApplication.class
+com\example\crud\models\ClientModel.class
+com\example\crud\services\IClientService.class
+com\example\crud\controllers\ClientController.class
+com\example\crud\dao\ClientDAO.class
+com\example\crud\dto\ResponseDTO$ResponseDTOBuilder.class
+com\example\crud\models\ClientModel$ClientModelBuilder.class
+com\example\crud\services\impl\ClientImplement.class
