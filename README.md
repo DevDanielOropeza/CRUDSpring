@@ -11,8 +11,7 @@ Evidencias Url: https://github.com/DevDanielOropeza/CRUDSpring/tree/main/evidenc
 
 Docker
 
-```bash
-  docker build -t xxldomxx/crud:latest .
+```bash  
   docker run -it -p 8080:8080 xxldomxx/crud:latest .
 ```
 
