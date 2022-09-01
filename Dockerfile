@@ -6,5 +6,5 @@ ADD ${JAR_FILE} app.jar
 ADD ${JSON_FILE} output.json
 ENTRYPOINT ["java","-jar","/app.jar"]
 
-## docker build -t demo .
-## docker run -it -p 8080:8080 demo .
+## docker build -t xxldomxx/crud:latest .
+## docker run -it -p 8080:8080 xxldomxx/crud:latest .

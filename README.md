@@ -1,6 +1,22 @@
-# CRUDSpring
 
-Este proyecto es un crud de clientes
+# CRUD Spring
 
-Docker Image URL:
-https://hub.docker.com/r/xxldomxx/crud
+Este proyecto es un crud de clientes en spring boot usando microservicios
+
+Docker Image Url: https://hub.docker.com/r/xxldomxx/crud
+
+Evidencias Url: https://github.com/DevDanielOropeza/CRUDSpring/tree/main/evidencias
+
+## Instalación
+
+Docker
+
+```bash
+  docker build -t xxldomxx/crud:latest .
+  docker run -it -p 8080:8080 xxldomxx/crud:latest .
+```
+
+## Autor
+
+- [@DevDanielOropeza](https://github.com/DevDanielOropeza)
+
