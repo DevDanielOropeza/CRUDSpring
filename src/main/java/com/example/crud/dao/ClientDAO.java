@@ -61,7 +61,7 @@ public class ClientDAO {
             saveJson();
             return client;
         } catch (Exception ex) {
-            throw new Exception(new Gson().toJson(ex));
+            throw new Exception(ex.getMessage());
         }
     }
 

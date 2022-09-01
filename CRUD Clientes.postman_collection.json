@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "e1a7de6e-0c46-416c-bc2a-9dcd0f12fe84",
+		"name": "CRUD Clientes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9187005"
+	},
+	"item": [
+		{
+			"name": "getAllClients",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/service/v1/client",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"service",
+						"v1",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getClientById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/service/v1/client/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"service",
+						"v1",
+						"client",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addClient",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\" : \"Daniel\",\r\n    \"lastName\" : \"Oropeza\",\r\n    \"email\" : \"dany@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/service/v1/client",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"service",
+						"v1",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteClient",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/service/v1/client/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"service",
+						"v1",
+						"client",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateClient",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\" : \"Daniel_Modificado\",\r\n    \"lastName\" : \"Oropeza_Modificado\",\r\n    \"email\" : \"dany@gmail.com_Modificado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/service/v1/client/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"service",
+						"v1",
+						"client",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
